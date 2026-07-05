@@ -37,7 +37,7 @@ func main() {
     }
 
     for {
-        //fmt.Println("currrent cached data:", cache)
+
         if isX {
             fmt.Printf("\nX's turn> ")
         } else {
@@ -52,7 +52,7 @@ func main() {
         text := strings.Fields(scanner.Text())[0]
         pos, _ := strconv.Atoi(text)
 
-        if (text == "return" || text == "back") && count > 1 {
+        if (text == "undo" || text == "return" || text == "back") && count > 1 {
             rtnErr := drawFrame(gameBody, false, cache, &count)
             if rtnErr != nil {
                 fmt.Println("invalid return, exiting program")
