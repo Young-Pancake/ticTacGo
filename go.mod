@@ -1,3 +1,3 @@
-module github.com/Young-Pancake/tickTackGo
+module github.com/Young-Pancake/ticTacGo
 
 go 1.26.1
