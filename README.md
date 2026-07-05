@@ -2,7 +2,12 @@
 ## A CLI tic tac toe tool written in Go!  
 _Simply clone the repo and play!_
 
-```git clone https://github.com/Young-Pancake/ticTacGo```
+```
+git clone https://github.com/Young-Pancake/ticTacGo
+cd ticTacGo
+go build .
+./ticTacGo
+```
 
 ## If you don't have Go installed install it here:
 ### [Go install](https://go.dev/doc/install)
