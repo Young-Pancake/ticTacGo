@@ -1,5 +1,5 @@
 # ticTacGo
-## A CLI tic tac toe tool written in Go!  
+## A CLI tic tac toe game, all written in Go!  
 _Simply clone the repo and play!_
 
 ```
